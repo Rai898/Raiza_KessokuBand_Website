@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Bowlby One SC', cursive;
+}
+h2, h3 {
+    font-family: 'Rock Salt', cursive;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbarLogo {
+    background-image: url("../images/BandLogo.png");
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 94.49px;
+    height: 84px;
+}
+.socialMediaLinks img{
+    height: 30px;
+    width: 30px;
+}
+.navbar {
+    background-color: black !important;
+}
+nav a{
+    color: white !important;
+}
