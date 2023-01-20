@@ -16,4 +16,29 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 5000); // Change image every 5 seconds
-  }
+  };
+
+  //tiny slider
+let musicSec = tns({
+    container: ".mySlider",
+    "slideBy": 1,
+    "speed": 400,
+    "nav": false,
+    "center":true,
+    prevButton: ".musicprevious",
+    nextButton: ".musicnext",
+    responsive: {
+        1600:{
+            items: 4,
+        },
+        1200:{
+            items: 3,
+        },
+        768:{
+            items: 2,
+        },
+        480:{
+            items: 1
+        }
+    },
+});
